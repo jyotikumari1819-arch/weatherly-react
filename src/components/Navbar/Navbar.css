@@ -1,8 +1,20 @@
-.navbar{
-    width:100%;
-    display:flex;
-    justify-content:space-between;
-    align-item: center;
+.navbar {
+    max-width:100%;
+    margin: 0 auto 20px;
+    padding: 20px;
+    text-align: center;
+  
+}
 
-    padding:20px 40px
+.navbar h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 6px;
+}
+
+.navbar p {
+    font-size: 14px;
+    color : #475569;
+    opacity: 0.8;
 }

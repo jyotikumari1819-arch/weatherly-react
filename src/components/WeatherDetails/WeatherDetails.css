@@ -1,0 +1,46 @@
+.weather-details {
+    max-width: 900px;
+    margin: 0 auto 24px;
+    padding: 24px;
+    border-radius: 22px;
+    background : white;
+    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.1);
+}
+
+.weather-details h2 {
+    font-size: 22px;
+    color: #0f172a;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+.details-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+}
+
+.detail-card p {
+   padding: 18px;
+    border-radius: 18px;
+    background: #f0f9ff;
+    text-align: center;
+   
+}
+
+.detail-card p {
+        font-size: 14px;
+        color: #64748b;
+        margin-bottom: 8px;
+}
+
+.detail-card h3 {
+    font-size: 20px;
+    color: #0284c7;
+}
+
+@media (max-width:700px) {
+    .details-grid {
+        grid-template-columns: repeat (2, 1fr);
+    }
+} 

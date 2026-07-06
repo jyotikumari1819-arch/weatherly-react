@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    fonr-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #6489bc, #533794);
+    color: #1f2937;
+    min-height: 100vh;
+
+}
+
+button , input {
+    font-family: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+.app-container {
+width: 100%;
+min-height: 100vh;
+padding: 20px;
+}
+
+.section {
+    margin: 20px auto;
+    max-width: 900px;
+}
