@@ -1,0 +1,60 @@
+.forecast {
+    max-width: 900px;
+    margin: 0 auto 24px;
+    padding: 24px;
+    border-radius: 22px;
+    background: white;
+    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.1);
+}
+
+.forecast h2 {
+    font-size: 22px;
+    color: #0f172a;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+.forecast-list {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 12px;
+}
+.forecast-card {
+    padding: 16px;
+    border-radius: 18px;
+    background: #f0f9ff;
+    text-align: center;
+    }
+
+    .forecast-card p {
+        font-size: 14px;
+        color: #475569;
+        margin-bottom: 8px;
+
+    }
+
+.forecast-card p:nth-child(2) {
+    font-size: 28px;
+}
+
+.forecast-card p:last-child {
+    font-weight: 700;
+    color: #0284c7;
+    margin-bottom: 0;
+}
+
+/* table */
+
+@media (max-width: 900px) {
+    .forecast-list {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/*mobile*/
+
+@media (max-width: 600px) {
+    .forecast-list {
+        grid-template-columns: repear(2, 1fr);
+    }
+}

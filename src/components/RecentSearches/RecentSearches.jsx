@@ -1,0 +1,1 @@
+localStorage.setItem("recentCities", JSON.stringify(cities));
